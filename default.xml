@@ -40,7 +40,7 @@
     <project path="yocto/poky" name="poky" groups="yocto" remote="yocto" revision="jethro" />
     <project path="yocto/openembedded-core" name="openembedded-core" groups="yocto" remote="openembedded" revision="jethro" />
     <project path="yocto/meta-openembedded" name="meta-openembedded" groups="yocto" remote="openembedded" revision="jethro" />
-    <project path="yocto/meta-qt5" name="meta-qt5" groups="yocto" remote="qt" revision="jethro" />
+    <project path="yocto/meta-qt5" name="meta-qt5" groups="yocto" remote="qt" revision="krogoth" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="nexell" />
 
 </manifest>
