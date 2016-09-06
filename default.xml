@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin"
-            fetch="ssh://git.nexell.co.kr:29418/"
-            review="http://git.nexell.co.kr:8081"/>
+            fetch="../../"/>
     <remote name="yocto"
             fetch="git://git.yoctoproject.org/"/>
     <remote name="qt"
