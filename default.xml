@@ -8,6 +8,8 @@
             fetch="https://github.com/meta-qt5/"/>
     <remote name="openembedded"
             fetch="git://git.openembedded.org/"/>
+    <remote name="genivi"
+            fetch="https://github.com/GENIVI/"/>
 
     <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="nexell" />
     <project path="bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="origin" revision="nexell" />
@@ -41,5 +43,6 @@
     <project path="yocto/meta-openembedded" name="meta-openembedded" groups="yocto" remote="openembedded" revision="krogoth" />
     <project path="yocto/meta-qt5" name="meta-qt5" groups="yocto" remote="qt" revision="master" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="nexell" />
+    <project path="yocto/GENIVI" name="genivi-dev-platform" groups="yocto" remote="genivi" revision="master" />
 
 </manifest>
