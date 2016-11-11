@@ -2,14 +2,6 @@
 <manifest>
     <remote name="origin"
             fetch="../../"/>
-    <remote name="yocto"
-            fetch="git://git.yoctoproject.org/"/>
-    <remote name="qt"
-            fetch="https://github.com/meta-qt5/"/>
-    <remote name="openembedded"
-            fetch="git://git.openembedded.org/"/>
-    <remote name="genivi"
-            fetch="https://github.com/GENIVI/"/>
 
     <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="nexell" />
     <project path="bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="origin" revision="nexell" />
@@ -38,11 +30,11 @@
     <project path="library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="origin" revision="nexell" />
     <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="nexell" />
     <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="nexell" />
-    <project path="yocto/poky" name="poky" groups="yocto" remote="yocto" revision="krogoth" />
-    <project path="yocto/openembedded-core" name="openembedded-core" groups="yocto" remote="openembedded" revision="krogoth" />
-    <project path="yocto/meta-openembedded" name="meta-openembedded" groups="yocto" remote="openembedded" revision="krogoth" />
-    <project path="yocto/meta-qt5" name="meta-qt5" groups="yocto" remote="qt" revision="master" />
+    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="krogoth" />
+    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="krogoth" />
+    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="krogoth" />
+    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="master" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="nexell" />
-    <project path="yocto/GENIVI" name="genivi-dev-platform" groups="yocto" remote="genivi" revision="master" />
+    <project path="yocto/GENIVI" name="nexell/yocto/genivi-dev-platform" groups="yocto" remote="origin" revision="master" />
 
 </manifest>
