@@ -15,7 +15,7 @@
     <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="nexell" />
     <project path="secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="origin" revision="nexell" />
     <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="nexell" />
-    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.19" groups="kernel" remote="origin" revision="android-nexell-artik-4.4.49" />
+    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-camera" name="nexell/linux/library/gst-plugins-camera" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-renderer" name="nexell/linux/library/gst-plugins-renderer" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-scaler" name="nexell/linux/library/gst-plugins-scaler" groups="library" remote="origin" revision="nexell" />
