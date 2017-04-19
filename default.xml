@@ -32,7 +32,7 @@
     <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="krogoth" />
     <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="krogoth" />
     <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="krogoth" />
-    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="master" />
+    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="81fb771c3f31110e50eebcb004809361fdb28194" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="nexell" />
     <project path="yocto/GENIVI" name="nexell/yocto/genivi-dev-platform" groups="yocto" remote="origin" revision="gdp-11" />
     <project path="apps/QT/NxAudioPlayer" name="nexell/linux/apps/QT/NxAudioPlayer" groups="apps" remote="origin" revision="master" />
