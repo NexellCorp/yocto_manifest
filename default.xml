@@ -4,7 +4,7 @@
             fetch="../../"/>
 
     <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="0a117d22b821e0cc34ab28e29beca1a732e8f266" />
-    <project path="bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="origin" revision="628f5b1c6ac7f1283149af3833018d1dcc724ef5" />
+    <project path="bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="origin" revision="c622c3b0ff979163c62a69152d5684c459e49cb5" />
     <project path="secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="origin" revision="884bd184f988f442b98677afbcd80f3aebbef00d" />
     <project path="secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="origin" revision="3445d2e21fbea5348a6a896749c16adc33485586" />
     <project path="secure/optee/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="origin" revision="04e84323aaaa30b992002c26c4e16a15809b5c7e" />
@@ -12,10 +12,10 @@
     <project path="secure/optee/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="origin" revision="5fcce5d5800a60957141f1d963edfd199480bfcb" />
     <project path="secure/optee/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="origin" revision="523e3c9b41b36c6625761d5c0948999da630b82c" />
     <project path="secure/optee/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="origin" revision="75e4c82ea87442a2d291cb8b6971f30db9e9cef2" />
-    <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="cea03e08e91ad8071a59bd96b7962fa0b5d809b7" />
+    <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="b8f84f0e05be161f63725f77aab5b34544103585" />
     <project path="secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="origin" revision="705db5400f67fc14ae6d742582c3f9b53a8fff1f" />
-    <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="d6eabf9780d0375c73f6a68c17aebef0dd6edd0a" />
-    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="84f7793db12930b60de153cac23eecbbe0e06064" />
+    <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="9083dbd3c132d4f488b692a729eab77f38f0da5e" />
+    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="aed8a444c96516f3b4f0071f27c89fb629ef8641" />
     <project path="library/gst-plugins-camera" name="nexell/linux/library/gst-plugins-camera" groups="library" remote="origin" revision="d005024198dea6f3b4df9654696860119cfabb8d" />
     <project path="library/gst-plugins-renderer" name="nexell/linux/library/gst-plugins-renderer" groups="library" remote="origin" revision="1e81fd567ed9b6394aae56a7068f975ca3b5ba6f" />
     <project path="library/gst-plugins-scaler" name="nexell/linux/library/gst-plugins-scaler" groups="library" remote="origin" revision="168b91a000c3c27e6d4a6820de7fb3310b17415f" />
@@ -33,7 +33,7 @@
     <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="28da89a20b70f2bf0c85da6e8af5d94a3b7d76c9" />
     <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="851a064b53dca3b14dd33eaaaca9573b1a36bf0e" />
     <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="81fb771c3f31110e50eebcb004809361fdb28194" />
-    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="ea66fc7635c5d3ba0cb3054b034621d2d48b9815" />
+    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="c011046c15d38476f4831197749740ada36dcb92" />
     <project path="yocto/GENIVI" name="nexell/yocto/genivi-dev-platform" groups="yocto" remote="origin" revision="27dfaa5b4e7915940f4890be58e7fc6d4bd81b1a" />
     <project path="apps/QT/NxAudioPlayer" name="nexell/linux/apps/QT/NxAudioPlayer" groups="apps" remote="origin" revision="3033527676de975a35033611347921afea9b718b" />
     <project path="apps/QT/NxVideoPlayer" name="nexell/linux/apps/QT/NxVideoPlayer" groups="apps" remote="origin" revision="f7845316010e348306d3301f4429c21d5f7333ba" />
