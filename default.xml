@@ -28,7 +28,7 @@
     <project path="library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="origin" revision="03913c264cef1bc8d19650e7e80ba2a9f9aaefe9" />
     <project path="library/xf86-video-armsoc" name="nexell/linux/library/xf86-video-armsoc" groups="library" remote="origin" revision="79b8d6961a90d976a0468614d3366e54d6e53a3e" />
     <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="688f63bcbfd2422e9bb59790a8face3750e7edc1" />
-    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="a56b438220fd78f815b9356910723c36409c1eb2" />
+    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="2e4b8529e63b43a61812066dced312e754c898db" />
     <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="cca8dd15c8096626052f6d8d25ff1e9a606104a3" />
     <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="28da89a20b70f2bf0c85da6e8af5d94a3b7d76c9" />
     <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="851a064b53dca3b14dd33eaaaca9573b1a36bf0e" />
