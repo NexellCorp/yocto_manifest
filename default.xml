@@ -12,8 +12,8 @@
     <project path="secure/optee/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="origin" revision="5fcce5d5800a60957141f1d963edfd199480bfcb" />
     <project path="secure/optee/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="origin" revision="523e3c9b41b36c6625761d5c0948999da630b82c" />
     <project path="secure/optee/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="origin" revision="75e4c82ea87442a2d291cb8b6971f30db9e9cef2" />
-    <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="b8f84f0e05be161f63725f77aab5b34544103585" />
-    <project path="secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="origin" revision="705db5400f67fc14ae6d742582c3f9b53a8fff1f" />
+    <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="12675947b00e416ea4775cafa29748cea04f4f24" />
+    <project path="secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="origin" revision="fe249ec15d5433390a80b5f0626d31a56e0be17f" />
     <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="2d271184b2e4d5906647a645526f109be19bb1a2" />
     <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="0d88ab1787e453d13042ff7c40d634b5de650a2f" />
     <project path="library/gst-plugins-camera" name="nexell/linux/library/gst-plugins-camera" groups="library" remote="origin" revision="d005024198dea6f3b4df9654696860119cfabb8d" />
