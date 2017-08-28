@@ -21,6 +21,7 @@
     <project path="library/gst-plugins-scaler" name="nexell/linux/library/gst-plugins-scaler" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-video-dec" name="nexell/linux/library/gst-plugins-video-dec" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-video-enc" name="nexell/linux/library/gst-plugins-video-enc" groups="library" remote="origin" revision="nexell" />
+    <project path="library/gst-plugins-video-sink" name="nexell/linux/library/gst-plugins-video-sink" groups="library" remote="origin" revision="nexell" />
     <project path="library/libdrm" name="nexell/linux/library/libdrm" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-drm-allocator" name="nexell/linux/library/nx-drm-allocator" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-gst-meta" name="nexell/linux/library/nx-gst-meta" groups="library" remote="origin" revision="nexell" />
