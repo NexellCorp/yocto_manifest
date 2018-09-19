@@ -29,12 +29,12 @@
     <project path="library/xf86-video-armsoc" name="nexell/linux/library/xf86-video-armsoc" groups="library" remote="origin" revision="nexell" />
     <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="nexell" />
     <project path="apps/smartvoice" name="nexell/linux/apps/smart_voice_apps" groups="apps" remote="origin" revision="master" />
-    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="pyro" />
-    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="pyro" />
+    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="sumo" />
+    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="sumo" />
+    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="sumo" />
     <project path="apps/QT/NxAudioPlayer" name="nexell/linux/apps/QT/NxAudioPlayer" groups="apps" remote="origin" revision="master" />
     <project path="apps/QT/NxVideoPlayer" name="nexell/linux/apps/QT/NxVideoPlayer" groups="apps" remote="origin" revision="master" />
     <project path="apps/QT/NxQuickRearCam" name="nexell/linux/apps/QT/NxQuickRearCam" groups="apps" remote="origin" revision="master" />
