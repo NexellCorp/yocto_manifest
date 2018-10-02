@@ -13,9 +13,10 @@
     <project path="secure/optee/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="origin" revision="nexell" />
     <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="bitminer" />
     <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="bitminer" />
-    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="pyro" />
+    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="bitminer" />
     <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="pyro" />
     <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="pyro" />
     <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="pyro" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="bitminer" />
+	<project path="apps/cgminer" name="nexell/bitcoin/cgminer" groups="apps" remote="origin" revision="nexell" />
 </manifest>
