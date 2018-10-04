@@ -2,6 +2,8 @@
 <manifest>
     <remote name="origin"
             fetch="../../"/>
+    <remote name="gitlab"
+            fetch="https://gitlab.com/opentemp/"/>
 
     <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="bitminer" />
     <project path="secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="origin" revision="bitminer" />
@@ -18,5 +20,6 @@
     <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="pyro" />
     <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="pyro" />
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="bitminer" />
-	<project path="apps/cgminer" name="nexell/bitcoin/cgminer" groups="apps" remote="origin" revision="nexell" />
+	<project path="apps/bitminer/cgminer" name="nexell/bitcoin/cgminer" groups="apps" remote="origin" revision="nexell" />
+	<project path="apps/bitminer/modbus-tcp-server" name="modbus-tcp-server" groups="apps" remote="gitlab" revision="bitminer" />
 </manifest>
