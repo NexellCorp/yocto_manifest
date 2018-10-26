@@ -41,4 +41,5 @@
     <project path="library/gst-plugins-video-dec" name="nexell/linux/library/gst-plugins-video-dec" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-video-enc" name="nexell/linux/library/gst-plugins-video-enc" groups="library" remote="origin" revision="nexell" />
     <project path="library/gst-plugins-video-sink" name="nexell/linux/library/gst-plugins-video-sink" groups="library" remote="origin" revision="nexell" />
+    <project path="target_sdk/displayaudio" name="nexell/linux/sdk/displayaudio" groups="target_sdk" remote="origin" revision="single_app" />
 </manifest>
