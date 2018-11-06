@@ -2,6 +2,7 @@
 <manifest>
     <remote name="origin"
             fetch="../../"/>
+
     <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="bitminer" />
     <project path="secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="origin" revision="bitminer" />
     <project path="secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="origin" revision="bitminer" />
@@ -19,4 +20,5 @@
     <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="bitminer" />
 	<project path="apps/bitminer/cgminer" name="nexell/bitcoin/cgminer" groups="apps" remote="origin" revision="nexell" />
 	<project path="apps/bitminer/modbus-tcp-server" name="nexell/bitcoin/modbus-tcp-server" groups="apps" remote="origin" revision="master" />
+	<project path="apps/bitminer/watchevent" name="nexell/bitcoin/watchevent" groups="apps" remote="origin" revision="master" />
 </manifest>
