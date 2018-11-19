@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin"
-            fetch="../../"/>
 
-    <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="bitminer" />
-    <project path="secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="origin" revision="bitminer" />
-    <project path="secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="origin" revision="bitminer" />
-    <project path="secure/optee/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="origin" revision="bitminer" />
-    <project path="secure/optee/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="origin" revision="bitminer" />
-    <project path="secure/optee/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="origin" revision="nexell" />
-    <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="bitminer" />
-    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="bitminer" />
-    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="bitminer" />
-    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="bitminer" />
-	<project path="apps/bitminer/cgminer" name="nexell/bitcoin/cgminer" groups="apps" remote="origin" revision="nexell" />
-	<project path="apps/bitminer/modbus-tcp-server" name="nexell/bitcoin/modbus-tcp-server" groups="apps" remote="origin" revision="master" />
-	<project path="apps/bitminer/watchevent" name="nexell/bitcoin/watchevent" groups="apps" remote="origin" revision="master" />
+  <include name="remote_nexell_ssh.xml" />
+
+  <project path="bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="bitminer" />
+  <project path="secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="bitminer" />
+  <project path="secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="bitminer" />
+  <project path="secure/optee/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="bitminer" />
+  <project path="secure/optee/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="bitminer" />
+  <project path="secure/optee/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
+  <project path="u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="bitminer" />
+  <project path="kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="bitminer" />
+  <project path="tools" name="yocto_tools" groups="tools" remote="nexell" revision="bitminer" />
+  <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="bitminer" />
+  <project path="apps/bitminer/cgminer" name="tsb1101_cgminer" groups="apps" remote="nexell" revision="nexell" />
+  <project path="apps/bitminer/modbus-tcp-server" name="tsb1101_modbus-tcp-server" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/bitminer/watchevent" name="tsb1101_watchevent" groups="apps" remote="nexell" revision="master" />
 </manifest>
