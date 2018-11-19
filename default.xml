@@ -14,7 +14,7 @@
   <project path="secure/optee_optee-test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="75e4c82ea87442a2d291cb8b6971f30db9e9cef2" />
   <project path="secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="12675947b00e416ea4775cafa29748cea04f4f24" />
   <project path="secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="1984eed64ce3e15f4df6118973199b2211d96b75" />
-  <project path="u-boot/u-boot-2016.01" name="gu-boot-2016.01" groups="u-boot" remote="nexell" revision="2d271184b2e4d5906647a645526f109be19bb1a2" />
+  <project path="u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="2d271184b2e4d5906647a645526f109be19bb1a2" />
   <project path="kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="0d88ab1787e453d13042ff7c40d634b5de650a2f" />
   <project path="library/gst-plugins-camera" name="linux_library_gst-plugin-camera" groups="library" remote="nexell" revision="d005024198dea6f3b4df9654696860119cfabb8d" />
   <project path="library/gst-plugins-renderer" name="linux_library_gst-plugins-renderer" groups="library" remote="nexell" revision="1e81fd567ed9b6394aae56a7068f975ca3b5ba6f" />
