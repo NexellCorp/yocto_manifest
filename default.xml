@@ -16,7 +16,7 @@
   <project path="secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
   <project path="u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
-  <project path="library/gst-plugins-camera" name="linux_library_gst-plugins-camera" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-camera" name="linux_library_gst-plugin-camera" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-renderer" name="linux_library_gst-plugins-renderer" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-scaler" name="linux_library_gst-plugins-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
