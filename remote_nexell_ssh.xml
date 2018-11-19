@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="nexell"
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
+</manifest>

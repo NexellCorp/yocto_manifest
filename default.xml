@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin"
-            fetch="../../"/>
 
-    <project path="bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="origin" revision="nexell" />
-    <project path="bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="origin" revision="nexell" />
-    <project path="secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/optee/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="origin" revision="nexell" />
-    <project path="secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="origin" revision="nexell" />
-    <project path="u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="origin" revision="nexell" />
-    <project path="kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="origin" revision="nexell" />
-    <project path="library/gst-plugins-camera" name="nexell/linux/library/gst-plugins-camera" groups="library" remote="origin" revision="nexell" />
-    <project path="library/gst-plugins-renderer" name="nexell/linux/library/gst-plugins-renderer" groups="library" remote="origin" revision="nexell" />
-    <project path="library/gst-plugins-scaler" name="nexell/linux/library/gst-plugins-scaler" groups="library" remote="origin" revision="nexell" />
-    <project path="library/libdrm" name="nexell/linux/library/libdrm" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-drm-allocator" name="nexell/linux/library/nx-drm-allocator" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-gst-meta" name="nexell/linux/library/nx-gst-meta" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-renderer" name="nexell/linux/library/nx-renderer" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-scaler" name="nexell/linux/library/nx-scaler" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-v4l2" name="nexell/linux/library/nx-v4l2" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="origin" revision="nexell" />
-    <project path="library/xf86-video-armsoc" name="nexell/linux/library/xf86-video-armsoc" groups="library" remote="origin" revision="nexell" />
-    <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="nexell" />
-    <project path="apps/smartvoice" name="nexell/linux/apps/smart_voice_apps" groups="apps" remote="origin" revision="master" />
-    <project path="tools" name="nexell/yocto/tools" groups="tools" remote="origin" revision="pyro" />
-    <project path="yocto/poky" name="nexell/yocto/poky" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/openembedded-core" name="nexell/yocto/openembedded-core" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-openembedded" name="nexell/yocto/meta-openembedded" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-qt5" name="nexell/yocto/meta-qt5" groups="yocto" remote="origin" revision="pyro" />
-    <project path="yocto/meta-nexell" name="nexell/yocto/krogoth/meta-nexell" groups="yocto" remote="origin" revision="pyro" />
-    <project path="apps/QT/NxAudioPlayer" name="nexell/linux/apps/QT/NxAudioPlayer" groups="apps" remote="origin" revision="master" />
-    <project path="apps/QT/NxVideoPlayer" name="nexell/linux/apps/QT/NxVideoPlayer" groups="apps" remote="origin" revision="master" />
-    <project path="apps/QT/NxQuickRearCam" name="nexell/linux/apps/QT/NxQuickRearCam" groups="apps" remote="origin" revision="master" />
-    <project path="library/gst-plugins-video-dec" name="nexell/linux/library/gst-plugins-video-dec" groups="library" remote="origin" revision="nexell" />
-    <project path="library/gst-plugins-video-enc" name="nexell/linux/library/gst-plugins-video-enc" groups="library" remote="origin" revision="nexell" />
-    <project path="library/gst-plugins-video-sink" name="nexell/linux/library/gst-plugins-video-sink" groups="library" remote="origin" revision="nexell" />
+  <include name="remote_nexell_ssh.xml" />
+
+  <project path="bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee_optee-build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee_optee-client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee_optee-linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee_optee-os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/optee_optee-test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
+  <project path="secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
+  <project path="u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
+  <project path="kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-camera" name="linux_library_gst-plugin-camera" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-renderer" name="linux_library_gst-plugins-renderer" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-scaler" name="linux_library_gst-plugins-scaler" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/libdrm" name="linux_library_libdrm" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-drm-allocator" name="linux_library_nx-drm-allocator" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-gst-meta" name="linux_library_nx-gst-meta" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/xf86-video-armsoc" name="linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
+  <project path="apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
+  <project path="tools" name="yocto_tools" groups="tools" remote="nexell" revision="pyro" />
+  <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="pyro" />
+  <project path="apps/QT_NxAudioPlayer" name="linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/QT_NxVideoPlayer" name="linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/QT_NxQuickRearCam" name="linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+  <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-video-enc" name="linux_library_gst-plugins-video-enc" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
 </manifest>
