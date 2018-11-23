@@ -34,9 +34,9 @@
   <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-qt5" name="yocto_meta-qt5" groups="yocto" remote="nexell" revision="sumo" />
   <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="sumo" />
-  <project path="apps/QT_NxAudioPlayer" name="linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="apps/QT_NxVideoPlayer" name="linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
-  <project path="apps/QT_NxQuickRearCam" name="linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/QT/NxAudioPlayer" name="linux_apps_QT_NxAudioPlayer" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/QT/NxVideoPlayer" name="linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell" revision="master" />
+  <project path="apps/QT/NxQuickRearCam" name="linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
   <project path="library/gst-plugins-video-dec" name="linux_library_gst-plugins-video-dec" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-video-enc" name="linux_library_gst-plugins-video-enc" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
