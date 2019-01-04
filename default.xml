@@ -31,7 +31,7 @@
   <project path="library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell"  />
   <project path="library/xf86-video-armsoc" name="linux_library_xf86-video-armsoc" groups="library" remote="nexell"  />
   <project path="apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell"  />
-  <project path="apps/smartvoice" name="nexell_apps/smart_voice_apps" groups="apps" remote="nexell"  />
+  <project path="apps/smartvoice" name="linux_apps_smart-voice-apps" groups="apps" remote="nexell"  />
   <project path="tools" name="yocto_tools" groups="tools" remote="nexell"  />
   <project path="yocto/poky" name="yocto_poky" groups="yocto" remote="nexell"  />
   <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" />
