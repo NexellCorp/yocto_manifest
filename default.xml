@@ -18,7 +18,7 @@
   <project path="yocto/openembedded-core" name="yocto_openembedded-core" groups="yocto" remote="nexell" revision="pyro" />
   <project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="pyro" />
   <project path="yocto/meta-nexell" name="yocto_meta-nexell" groups="yocto" remote="nexell" revision="bitminer" />
-  <project path="apps/bitminer/cgminer" name="tsb1101_cgminer" groups="apps" remote="nexell" revision="nexell" />
+  <project path="apps/bitminer/cgminer" name="asic_b_cgminer" groups="apps" remote="nexell" revision="nexell" />
   <project path="apps/bitminer/modbus-tcp-server" name="tsb1101_modbus-tcp-server" groups="apps" remote="nexell" revision="master" />
   <project path="apps/bitminer/watchevent" name="tsb1101_watchevent" groups="apps" remote="nexell" revision="master" />
 </manifest>
