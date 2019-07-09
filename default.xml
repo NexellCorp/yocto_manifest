@@ -44,4 +44,5 @@
   <project path="library/gst-plugins-video-enc" name="linux_library_gst-plugins-video-enc" groups="library" remote="nexell" revision="nexell" />
   <project path="library/gst-plugins-video-sink" name="linux_library_gst-plugins-video-sink" groups="library" remote="nexell" revision="nexell" />
   <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
+  <project path="apps/svm_daemon" name="solution_svm_daemon" groups="yocto" remote="nexell" revision="master" />
 </manifest>
