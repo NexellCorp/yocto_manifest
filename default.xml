@@ -26,6 +26,7 @@
   <project path="library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
   <project path="library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
+  <project path="library/nx-gl-tools" name="linux_library_nx-gl-tools" groups="library" remote="nexell" revision="master" />
   <project path="library/nx-uds" name="linux_library_nx_uds" groups="library" remote="nexell" revision="nexell" />
   <project path="library/nx-config" name="linux_library_nx_config" groups="library" remote="nexell" revision="master" />
   <project path="library/xf86-video-armsoc" name="linux_library_xf86-video-armsoc" groups="library" remote="nexell" revision="nexell" />
