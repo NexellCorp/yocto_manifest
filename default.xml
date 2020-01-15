@@ -47,5 +47,5 @@
   <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" revision="master" />
   <project path="apps/svm_daemon" name="solution_svm_daemon" groups="yocto" remote="nexell" revision="master" />
   <project path="apps/nx_init" name="nx_init" groups="yocto" remote="nexell" revision="master" />
-  <project path="apps/nx_quickrearcam" name="nx_quickrearcam" groups="yocto" remote="nexell" revision="master" />
+  <project path="apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="yocto" remote="nexell" revision="master" />
 </manifest>
