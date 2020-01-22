@@ -43,6 +43,6 @@
   <project path="apps/QT/NxVideoPlayer" name="linux_apps_QT_NxVideoPlayer" groups="apps" remote="nexell"  />
   <project path="apps/QT/NxQuickRearCam" name="linux_apps_QT_NxQuickRearCam" groups="apps" remote="nexell"  />
   <project path="apps/nx_video_api_test" name="linux_apps_nx_video_api_test" groups="apps" remote="nexell"  />
+  <project path="apps/nx_init" name="nx_init" groups="apps" remote="nexell" />
   <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" />
-
 </manifest>
