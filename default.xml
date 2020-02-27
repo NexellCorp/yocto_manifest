@@ -46,4 +46,5 @@
   <project path="apps/nx_init" name="nx_init" groups="apps" remote="nexell" />
   <project path="solutions/displayaudio-sdk" name="linux_sdk_displayaudio" groups="solutions" remote="nexell" />
   <project path="apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="apps" remote="nexell" />
+  <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" />
 </manifest>
