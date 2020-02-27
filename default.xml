@@ -48,4 +48,5 @@
   <project path="apps/svm_daemon" name="solution_svm_daemon" groups="yocto" remote="nexell" revision="master" />
   <project path="apps/nx_init" name="nx_init" groups="yocto" remote="nexell" revision="master" />
   <project path="apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+  <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" revision="master" />
 </manifest>
